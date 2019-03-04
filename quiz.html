@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Quiz</h1>
+
+        <div class="questions">
+            <form id="quiz" name="quiz">
+                <h2>1. W którym roku odbył się pierwszy rozbiór Polski</h2>
+                <label class="container">1795
+                    <input class="answer" type="radio" name="group1" value="1795"><span class="checkmark"></span></label>
+                <label class="container">1772
+                    <input type="radio" class="answer" name="group1" value="1772">
+                    <span class="checkmark correct"></span></label>
+                <label class="container">1793
+                    <input type="radio" class="answer" name="group1" value="1793"><span class="checkmark"></span>
+                </label>
+                <h2>2. Jakie Państwa uczestniczyły w drugim rozbiorze Polski?</h2>
+                <label class="container">Rosja,
+                    Prusy, Austria
+                    <input type="radio" class="answer" name="group2" value="Rosja, Prusy, Austria"><span class="checkmark"></span></label>
+                <label class="container">Rosja i Prusy
+                    <input type="radio" class="answer" name="group2" value="Rosja i Prusy"><span class="checkmark correct"></span></label>
+                <label class="container">Rosja, Austria
+                    <input type="radio" class="answer" name="group2" value="Rosja, Austria"><span class="checkmark"></span></label>
+                <h2>3. Ile lat Polska była pod zaborami?</h2>
+                <label class="container">112
+                    <input type="radio" class="answer" name="group3" value="112"><span class="checkmark"></span>
+                </label>
+                <label class="container">132
+                    <input type="radio" class="answer" name="group3" value="132"><span class="checkmark"></span></label>
+                <label class="container">123
+                    <input type="radio" class="answer" name="group3" value="123"><span class="checkmark correct"></span></label>
+                <h2>4. Kiedy obchodzone jest święto Niepodległości Polski</h2>
+                <label class="container">11.
+                    listopada
+                    <input type="radio" class="answer" name="group4" value="11. listopada"><span class="checkmark correct"></span>
+                </label>
+                <label class="container">10.
+                    października
+                    <input type="radio" class="answer" name="group4" value="10. października"><span class="checkmark"></span></label>
+                <label for="" class="container">14.
+                    listopada
+                    <input type="radio" class="answer" name="group4" value="14 listopada"><span class="checkmark"></span></label>
+                <h2>5. Żył w latach 1864-1939, główny ideolog polskiego nacjonalizmu, jeden z najwybitniejszych
+                    polityków polskich.</h2>
+                <label class="container">Tadeusz
+                    Kościuszko
+                    <input type="radio" class="answer" name="group5" value="Tadeusz Kościuszko"><span class="checkmark"></span>
+                </label>
+                <label class="container">Gabriel
+                    Narutowicz
+                    <input type="radio" class="answer" name="group5" value="Gabriel Narutowicz"><span class="checkmark"></span></label>
+                <label class="container">Roman
+                    Dmowski
+                    <input type="radio" class="answer" name="group5" value="Roman Dmowski"><span class="checkmark correct"></span></label>
+                <h2>6. Dowódca wojskowy, polityk, naczelnik państwa polskiego w latach 1918-1922</h2>
+                <label class="container">Ignacy
+                    Paderewski
+                    <input type="radio" class="answer" name="group6" value="Ignacy Padarewski"><span class="checkmark"></span>
+                </label>
+                <label class="container">Józef
+                    Piłsudski
+                    <input type="radio" class="answer" name="group6" value="Józef Piłsudski"><span class="checkmark correct"></span></label>
+                <label class="container">Wojciech
+                    Korfanty
+                    <input type="radio" class="answer" name="group6" value="Wojciech Korfanty"><span class="checkmark"></span></label>
+                <h2>7. Pierwszy prezydent Rzeczypospolitej Polskiej</h2>
+                <label class="container">Gabriel
+                    Narutowicz
+                    <input type="radio" class="answer" name="group7" value="Gabriel Narutowicz"><span class="checkmark correct"></span>
+                </label>
+                <label class="container">Wicenty
+                    Witos
+                    <input type="radio" class="answer" name="group7" value="Wicenty Witos"><span class="checkmark"></span></label>
+                <label class="container">Józef
+                    Piłsudski
+                    <input type="radio" class="answer" name="group7" value="Józef Piłsudski"><span class="checkmark"></span></label>
+                <h2>8. Generał broni wojska Polskiego, legionista,harcmistrz Przewodniczący ZHP (żył w latach
+                    1873-1960)</h2>
+                <label class="container">Roman
+                    Dmowski
+                    <input type="radio" class="answer" name="group8" value="Roman Dmowski"><span class="checkmark"></span>
+                </label>
+                <label class="container">Józef
+                    Heller
+                    <input type="radio" class="answer" name="group8" value="Józef Heller"><span class="checkmark correct"></span></label>
+                <label class="container">Kazimierz
+                    Sosnowski
+                    <input type="radio" class="answer" name="group8" value="Kazimierz Sosnowski"><span class="checkmark"></span></label>
+            </form>
+        </div>
+
+        <div class="points-box ">
+            <div class="pkt">
+                <h3 class="points hide ">Punkty:
+                    <span class="points show"></span>
+                </h3>
+            </div>
+            <button class="check-points bigbtn">Sprawdz odpowiedź</button>
+            <button class="show-answer bigbtn ">Pokaż odpowiedzi</button>
+            <button class="clear bigbtn">Spróbuj jeszcze raz</button>
+        </div>
+
+    </div>
+
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>
